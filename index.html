@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="index,follow">
+  <meta name="description" content="Privacy Policy for Scam Check India by Joshinfotech.">
+  <title>Privacy Policy — Scam Check India</title>
+  <style>
+    :root { color-scheme: light; --ink:#172033; --muted:#596579; --line:#e4e8f0; --accent:#3b4bd8; --paper:#ffffff; --wash:#f5f7fb; }
+    * { box-sizing:border-box; }
+    body { margin:0; background:var(--wash); color:var(--ink); font:16px/1.68 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; }
+    header { background:linear-gradient(135deg,#283593,#6d28d9); color:#fff; padding:44px 20px 38px; }
+    .wrap { width:min(900px,100% - 32px); margin:0 auto; }
+    .eyebrow { margin:0 0 8px; opacity:.88; font-size:.88rem; letter-spacing:.07em; text-transform:uppercase; }
+    h1 { margin:0; font-size:clamp(2rem,5vw,3rem); line-height:1.15; }
+    header p:last-child { margin:13px 0 0; max-width:700px; opacity:.95; }
+    main { padding:26px 0 42px; }
+    article { background:var(--paper); border:1px solid var(--line); border-radius:18px; padding:clamp(20px,4vw,38px); box-shadow:0 12px 36px rgba(22,33,63,.06); }
+    h2 { margin:32px 0 8px; font-size:1.28rem; line-height:1.35; }
+    h2:first-child { margin-top:0; }
+    p { margin:9px 0; }
+    ul { padding-left:24px; margin:8px 0 14px; }
+    li { margin:5px 0; }
+    a { color:var(--accent); overflow-wrap:anywhere; }
+    .updated { color:var(--muted); font-size:.92rem; margin-top:8px; }
+    .notice { border-left:4px solid var(--accent); padding:13px 16px; background:#f4f5ff; border-radius:0 10px 10px 0; margin:18px 0; }
+    .contact { background:#f7f8fc; border:1px solid var(--line); padding:16px; border-radius:12px; }
+    footer { color:var(--muted); text-align:center; padding:0 16px 30px; font-size:.9rem; }
+    @media print { body { background:white; } header { background:#283593 !important; print-color-adjust:exact; } article { box-shadow:none; border:0; } }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <p class="eyebrow">Joshinfotech</p>
+      <h1>Privacy Policy</h1>
+      <p>Scam Check India — understand what information is processed when you check a phone number, UPI ID, website, message, QR code, or image for possible scam indicators.</p>
+      <p class="updated">Last updated: 10 October 2026</p>
+    </div>
+  </header>
+  <main class="wrap">
+    <article>
+      <h2>1. Who we are</h2>
+      <p><strong>Scam Check India</strong> is an app published by <strong>Joshinfotech</strong>. This policy explains how information is processed when you use the app and its online analysis service.</p>
+      <p>Privacy contact: <a href="mailto:scamcheckindia.support@gmail.com">scamcheckindia.support@gmail.com</a></p>
+
+      <h2>2. Information you choose to scan</h2>
+      <p>When you ask the app to analyse an item, it may process the information you submit, including:</p>
+      <ul>
+        <li><strong>Phone numbers</strong> that you enter for a scam-risk check.</li>
+        <li><strong>UPI IDs</strong> or payment identifiers that you enter.</li>
+        <li><strong>Website addresses (URLs)</strong> that you enter or that are decoded from a QR code.</li>
+        <li><strong>Text or messages</strong> that you paste for analysis.</li>
+        <li><strong>Text extracted from images</strong> chosen from your gallery or captured with the camera using the app's OCR feature.</li>
+        <li><strong>QR-code contents</strong> decoded from a QR scan or selected QR image.</li>
+      </ul>
+      <p>Please submit only information needed for the check. Do not submit passwords, OTPs, UPI PINs, card security codes, or other secrets. If you scan a message or image belonging to another person, make sure you are permitted to use it.</p>
+
+      <h2>3. Camera, gallery, OCR and QR processing</h2>
+      <p>For the current version, image text recognition (OCR) is performed on your device. The original photograph or screenshot is not intentionally uploaded as an image for AI analysis. The text extracted from the image is sent to the online analysis service when you request a scan.</p>
+      <p>QR scanning decodes the QR content so it can be checked. The decoded text or URL—not necessarily the original QR image—is sent to the online analysis service when you request analysis.</p>
+      <p>The app does not automatically read your SMS inbox, call history, or contacts for scam checks. You choose what to type, scan, or select.</p>
+
+      <h2>4. Why we process information</h2>
+      <p>Submitted information is processed to provide the scam-risk assessment you requested, explain possible warning signs, suggest safer next steps, operate the scanning features, protect the service against misuse, and diagnose technical failures.</p>
+      <ul>
+        <li>Phone numbers may be checked against phone-reputation signals.</li>
+        <li>URLs may be checked using domain and DNS information, registration data, redirects, or website/reputation checks when available.</li>
+        <li>Messages, UPI IDs, QR contents, URLs and OCR text may be evaluated by the configured AI analysis service.</li>
+      </ul>
+
+      <h2>5. Online services and information sharing</h2>
+      <p>Scam Check India uses a hosted backend to perform online analysis. The following providers or services may process relevant information:</p>
+      <ul>
+        <li><strong>Hosted backend / infrastructure (currently hosted on Render):</strong> receives scan requests and returns results. The hosting service may process normal connection, security, and diagnostic metadata.</li>
+        <li><strong>Google Gemini API:</strong> the current deployment can send submitted scan content to Google's AI service to generate a risk assessment. If remote AI is unavailable, the backend may use a local fallback assessment. The app's provider configuration may change as the service is maintained.</li>
+        <li><strong>IPQualityScore (IPQS):</strong> when phone-reputation checking is enabled, the phone number being checked is sent to IPQS to obtain phone-risk signals.</li>
+        <li><strong>Google Firebase App Check:</strong> app-integrity signals or tokens are used to help protect requests to the backend from unauthorised clients.</li>
+        <li><strong>Network destinations involved in URL checks:</strong> the backend may make DNS, domain-registration, reputation, redirect, or website requests as part of checking a URL. A website contacted during this process may receive normal network-request information from our server.</li>
+      </ul>
+      <p>These providers process information under their applicable terms and privacy practices. We do not control all of their independent retention or operational practices. You can review their current privacy information here: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google Privacy Policy</a>, <a href="https://ai.google.dev/gemini-api/terms" target="_blank" rel="noopener noreferrer">Gemini API Terms</a>, <a href="https://www.ipqualityscore.com/privacy-policy" target="_blank" rel="noopener noreferrer">IPQualityScore Privacy Policy</a>, <a href="https://render.com/privacy" target="_blank" rel="noopener noreferrer">Render Privacy Policy</a>, and <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener noreferrer">Firebase Privacy and Security</a>.</p>
+      <p>We do not sell the scan content you submit. We use it to provide the requested security check, operate and protect the service, or comply with applicable legal obligations—not to create advertising profiles.</p>
+
+      <h2>6. Technical information and security</h2>
+      <p>To deliver and protect the service, the backend or its hosting provider may process technical information such as request time, IP address, connection details, error information, and security/diagnostic logs. Firebase App Check may process app/device integrity signals. We do not use these signals to identify you personally unless necessary for security, troubleshooting, or a legal obligation.</p>
+      <p>Requests to the current online backend use HTTPS in transit. We take reasonable steps to limit information to what is needed for the service, but no internet transmission or storage system can be guaranteed to be completely secure.</p>
+
+      <h2>7. Storage, retention and deletion</h2>
+      <ul>
+        <li><strong>On your device:</strong> the in-app scan history is temporary session state, not a permanent account history, and may disappear when the app or screen is restarted or closed.</li>
+        <li><strong>Our application backend:</strong> the current service is designed to process a scan and return a result; it is not designed to create a permanent user profile or save raw scan submissions in an application database.</li>
+        <li><strong>Operational logs:</strong> the hosting platform and service providers may keep limited connection, security, billing, abuse-prevention, or diagnostic records under their own settings and retention rules. Retention periods can differ by provider and are not fully controlled by the app developer.</li>
+        <li><strong>Third-party AI and reputation services:</strong> data sent to those services is subject to their applicable terms and retention practices. We cannot independently delete records held solely by a third-party provider.</li>
+      </ul>
+      <p>If you have a privacy question or want us to review a request concerning information under our control, email <a href="mailto:scamcheckindia.support@gmail.com">scamcheckindia.support@gmail.com</a>. Please describe the relevant scan and approximate date, but do not email passwords, OTPs, PINs, or other secrets. We will review requests subject to applicable law and the records actually available to us.</p>
+
+      <h2>8. Your choices</h2>
+      <ul>
+        <li>You decide which number, message, UPI ID, URL, image, or QR content to scan.</li>
+        <li>You can avoid submitting content you do not want processed by the online analysis service.</li>
+        <li>You can stop using the app at any time.</li>
+        <li>You can contact us with questions or privacy requests using the email above.</li>
+      </ul>
+
+      <h2>9. Children</h2>
+      <p>Scam Check India is not specifically directed at children. If you believe a child has sent personal information through the app, please contact us so we can review the concern.</p>
+
+      <h2>10. Third-party links and changes</h2>
+      <p>The app may analyse URLs that lead to third-party websites. We are not responsible for the privacy practices of those websites. We may update this policy when the app's features, service providers, or legal requirements change. The revised policy will be published at the same public webpage with a new “Last updated” date.</p>
+
+      <h2>11. Important limitation of scam-risk results</h2>
+      <div class="notice">
+        <p><strong>Scam Check India provides automated risk estimates for informational and awareness purposes only.</strong> It does not guarantee that a phone number, UPI ID, message, QR code, or website is safe or fraudulent. Results may be incomplete or incorrect, and a low-risk result is not proof of legitimacy. Verify requests through official channels and never share an OTP, password, or UPI PIN. The app does not provide legal, financial, or law-enforcement determinations.</p>
+      </div>
+
+      <h2>12. Contact</h2>
+      <div class="contact">
+        <p><strong>Developer:</strong> Joshinfotech</p>
+        <p><strong>App:</strong> Scam Check India</p>
+        <p><strong>Privacy and support email:</strong> <a href="mailto:scamcheckindia.support@gmail.com">scamcheckindia.support@gmail.com</a></p>
+      </div>
+    </article>
+  </main>
+  <footer>© 2026 Joshinfotech · Scam Check India</footer>
+</body>
+</html>
